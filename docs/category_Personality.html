@@ -1,0 +1,113 @@
+
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background-color: #f9f9f9;
+    }
+    h2 {
+        color: #333;
+    }
+    a {
+        text-decoration: none;
+        color: #004466;
+        margin-right: 20px;
+    }
+    input[type="text"] {
+        width: 300px;
+        padding: 10px;
+        margin: 20px 0;
+        font-size: 16px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    th, td {
+        padding: 12px 16px;
+        border: 1px solid #ddd;
+        text-align: left;
+        vertical-align: top;
+    }
+    th {
+        background-color: #004466;
+        color: #fff;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    tr:hover {
+        background-color: #e6f7ff;
+    }
+    .container {
+        overflow-x: auto;
+    }
+    #backToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        z-index: 99;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+        padding: 10px 16px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    }
+    #backToTopBtn:hover {
+        background-color: #555;
+    }
+</style>
+</head><body>
+<h2>Category: Personality</h2>
+<div><a href="index.html">← Back to Main Page</a></div><br>
+
+<div class="container">
+<table>
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+<tr><td>1</td><td style='background-color: #d4edda; font-weight: bold;'>Professional</td><td>The worker is a true pro and always acts as such. Has a mildly positive natural impact on the backstage environment. Negative morale effects on them are dampened. Very rarely gets involved in negative backstage incidents. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>2</td><td style='background-color: #fff3cd; font-weight: bold;'>Quiet</td><td>The worker is very quiet and fades into the background. Has no natural impact on the backstage environment, only what comes via their morale. All morale effects on them are greatly dampened. Very rarely gets involved in backstage incidents. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>3</td><td style='background-color: #d4edda; font-weight: bold;'>Stalwart</td><td>The worker just gets on with the job and doesn&#x27;t make a fuss. Has a mildly positive natural impact on the backstage environment. Negative morale effects on them are greatly dampened. Positive morale effects on them are slightly dampened. Very rarely gets involved in negative backstage incidents. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>4</td><td style='background-color: #d4edda; font-weight: bold;'>Relaxed</td><td>The worker is very chilled and easy to get on with. Has a mildly positive natural impact on the backstage environment as long as they do not have negative morale. Negative morale effects on them are slightly dampened. Positive morale effects on them are slightly amplified. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>5</td><td style='background-color: #d4edda; font-weight: bold;'>Lively</td><td>The worker is a lively, upbeat individual. Has a positive natural impact on the backstage environment. Negative morale effects on them are quite dampened. Positive morale effects on them are quite amplified. Has an increased chance of creating positive backstage incidents. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>6</td><td style='background-color: #d4edda; font-weight: bold;'>Class Clown</td><td>The worker is a fun individual who likes to be the center of attention. Has a positive natural impact on the backstage environment. Has an increased chance of creating positive backstage incidents, but can also go too far or become annoying and can therefore also sometimes create negative backstage altercations. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>7</td><td style='background-color: #d4edda; font-weight: bold;'>Party Animal</td><td>The worker is a partier and brings an upbeat energy to situations. Has a major positive natural impact on the backstage environment. Negative morale effects on them are greatly dampened. Positive morale effects on them are greatly amplified. Has an increased chance of creating positive backstage incidents, but also of being unreliable. Has an increased risk of developing addictions. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>8</td><td style='background-color: #d4edda; font-weight: bold;'>People Person</td><td>The worker gets on with absolutely everyone. Has a major positive natural impact on the backstage environment. Negative morale effects on them are greatly dampened. Positive morale effects on them are greatly amplified. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>9</td><td style='background-color: #d4edda; font-weight: bold;'>Irrepressible</td><td>The worker is perpetually in a good mood and impossible not to like. Has a major positive natural impact on the backstage environment. Negative morale has no effect on them. Positive morale effects on them are greatly amplified. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>10</td><td style='background-color: #d4edda; font-weight: bold;'>Free Spirit</td><td>The worker is a free spirit who seems to be on a different planet from everyone else. Has a mild positive natural impact on the backstage environment. Morale has no effect on them. Has an increased chance of being unreliable. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>11</td><td style='background-color: #fff3cd; font-weight: bold;'>Driven</td><td>The worker is extremely focused about having the best career possible. They have no natural impact on the backstage environment. Negative morale has no effect on them. Has a reduced chance of being involved in backstage interactions and will rarely be unreliable. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>12</td><td style='background-color: #fff3cd; font-weight: bold;'>Intense</td><td>The worker is naturally very tightly wound. Their impact on the backstage environment entirely reflects their morale: the more unhappy they are the greater their negative impact, and the happier they are the greater their positive impact. Has an increased chance of getting into backstage altercations. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>13</td><td style='background-color: #f8d7da; font-weight: bold;'>Mercenary</td><td>The worker is only interested in their own career and making as much money and gaining as much success as possible. Has a mildly negative natural impact on the backstage environment. Morale effects on them are significantly dampened. Financial terms and incentives have a greater impact upon their decisions than normal. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>14</td><td style='background-color: #f8d7da; font-weight: bold;'>Loner</td><td>The worker keeps themselves to themselves. Has a mildly negative natural impact on the backstage environment. Negative morale effects on them are slightly amplified. Positive morale effects on them are dampened. Will rarely become involved in backstage interactions. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>15</td><td style='background-color: #fff3cd; font-weight: bold;'>Prickly</td><td>The worker is a prickly customer who takes offence very easily. Their impact on the backstage environment entirely reflects their morale: if they are unhappy they have a massive negative impact, but if they are happy then they have a positive impact. They have a greatly increased chance of getting into backstage altercations. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>16</td><td style='background-color: #f8d7da; font-weight: bold;'>Selfish</td><td>The worker is self-centred. Has a mildly negative natural impact on the backstage environment. Has an increased chance of generating negative backstage interactions. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>17</td><td style='background-color: #f8d7da; font-weight: bold;'>Gloomy</td><td>It is not difficult to distinguish between this worker and a ray of sunshine. Has a major negative impact on the backstage environment. Negative morale effects on them are greatly amplified. Positive morale effects on them are severely dampened. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>18</td><td style='background-color: #f8d7da; font-weight: bold;'>Insecure</td><td>The worker is notoriously insecure about their position. When they are perceived as a Major Star or Star and have neutral or positive morale they have a mildly positive natural impact on the backstage environment, otherwise they have a mildly negative impact and negative morale effects on them are amplified. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>19</td><td style='background-color: #f8d7da; font-weight: bold;'>Needy</td><td>The worker has a fragile ego. Has no natural impact on the backstage environment whilst they have positive morale, otherwise they have a negative impact which increases the unhappier they are. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>20</td><td style='background-color: #f8d7da; font-weight: bold;'>Sleazy</td><td>The worker is a bit of a sleazeball. Has a negative natural impact on the backstage environment. Has an increased chance of generating negative backstage interactions. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>21</td><td style='background-color: #f8d7da; font-weight: bold;'>Troublemaker</td><td>The worker can&#x27;t help causing drama. Has a negative natural impact on the backstage environment. Has a greatly increased chance of causing negative backstage interactions. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>22</td><td style='background-color: #f8d7da; font-weight: bold;'>Agitator</td><td>The worker has a tendency to stir up drama. Has a mildly negative natural impact on the backstage environment, but this increases significantly the more unhappy they become. Has an increased chance of generating negative backstage interactions, which increases significantly when unhappy. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>23</td><td style='background-color: #f8d7da; font-weight: bold;'>Egomaniac</td><td>The worker has a huge ego. When perceived as a Major Star or Star they have a positive natural impact on the backstage environment, otherwise they have a negative one (getting worse as they become perceived less.) All morale effects on them are slightly amplified. They have an increased chance of getting into backstage altercations. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>24</td><td style='background-color: #fff3cd; font-weight: bold;'>Unpredictable</td><td>The worker is very mercurial and you never know what to expect. They have no natural impact on the backstage environment. They are liable to get involved in both positive and negative backstage interactions, although it is mostly random as to how often they do so and which direction they take. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>25</td><td style='background-color: #fff3cd; font-weight: bold;'>Grifter</td><td>The worker is a throwback to the carnival days of wrestling and is always up to some sort of scheme. Has no natural impact on the backstage environment unless unhappy, in which case they have a negative impact. Has a slightly increased chance of getting into trouble. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>26</td><td style='background-color: #f8d7da; font-weight: bold;'>Bully</td><td>The worker is a bully, pure and simple. Has a major negative natural impact on the backstage environment which gets worse the higher their perception rating gets. Negative morale effects on them are greatly amplified. Has a greatly increased chance of getting into backstage altercations. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>27</td><td style='background-color: #f8d7da; font-weight: bold;'>Wild</td><td>The worker is a hedonistic wild child. Has a mild negative natural impact on the backstage environment. Has a greatly increased chance of being unreliable. Has a greatly increased risk of developing addictions and problems with the law. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+<tr><td>28</td><td style='background-color: #f8d7da; font-weight: bold;'>Scumbag</td><td>The worker is a total scumbag whose behaviour is often awful. Has a major negative natural impact on the backstage environment. They have a greatly increased chance of getting into backstage altercations. If put in a position of absolute power, such as becoming an owner, they are likely to abuse it. (NB: This is a specific personality; each worker can only have one.)</td></tr>
+</table></div>
+</body></html>
